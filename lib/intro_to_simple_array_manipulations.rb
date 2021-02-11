@@ -1,5 +1,4 @@
-
-"Bob"])  haircuts.uniq
+def using_uniq (haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"])  haircuts.uniq
 end
 
 def using_flatten(instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"])
@@ -21,4 +20,3 @@ def using_insert(list_of_programming_languages = ["Ruby", "JavaScript", "Java", 
   list_of_programming_languages.insert("Python")
 end
 
-def using_uniq (haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", 
