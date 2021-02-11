@@ -16,10 +16,9 @@ def using_flatten(instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "D
 end
 
 def using_delete(array, string)
-
   array.delete("Steven")
 end
 
 def using_delete_at (array, integer)
- # binding.pry  
+ binding.pry  
 end
