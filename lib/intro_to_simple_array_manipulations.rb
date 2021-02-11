@@ -1,6 +1,6 @@
 require "pry"
 
-def using_concat (array, element)
+def using_concat (array1, array2)
   binding.pry
  # my_favorite_things.concat()
 end
