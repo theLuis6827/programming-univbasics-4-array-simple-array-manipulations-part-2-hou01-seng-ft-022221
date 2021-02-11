@@ -1,3 +1,7 @@
+def using_concat (my_favorite_things = ["raindrops on roses", "whiskers on kittens"], more_favs = ["sports cars", "flatiron school"])
+  my_favorite_things.concat(more_favs)
+end
+
 def using_uniq (haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"])  haircuts.uniq
 end
 
@@ -10,9 +14,7 @@ def using_flatten(instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "D
   instruments.flatten
 end
 
-def using_concat (my_favorite_things = ["raindrops on roses", "whiskers on kittens"], more_favs = ["sports cars", "flatiron school"])
-  my_favorite_things.concat(more_favs)
-end
+
 
 def using_delete(instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"])
   no_offense_steven = instructors.delete("Steven")
