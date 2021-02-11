@@ -1,5 +1,5 @@
-"Bob"])
-  haircuts.uniq
+
+"Bob"])  haircuts.uniq
 end
 
 def using_flatten(instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"])
