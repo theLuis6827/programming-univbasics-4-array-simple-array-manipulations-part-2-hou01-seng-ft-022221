@@ -15,7 +15,8 @@ def using_flatten(instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "D
   instruments.flatten
 end
 
-def using_delete(instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"])
+def using_delete(array, string)
+  binding.pry
   no_offense_steven = instructors.delete("Steven")
 end
 
