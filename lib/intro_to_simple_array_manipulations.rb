@@ -5,7 +5,6 @@ def using_concat (array1, array2)
 end
 
 def using_insert(array, element)
- # binding.pry
   array.insert(4, element)
 end
 
